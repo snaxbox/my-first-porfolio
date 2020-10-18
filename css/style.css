@@ -1,0 +1,112 @@
+body{
+  margin: 0;
+}
+
+/*******************************************/
+/* * */
+/* Navigation Bar Styling*/ 
+/* * */
+/* **************************************** */
+nav{
+  background-color: blanchedalmond;
+}
+
+.menu{
+  float: right;
+  margin-right: 0;
+}
+.menu ul{
+  padding-left: 0;
+  margin: 0;
+}
+
+.menu ul li{
+  display: inline-block;
+  margin-right: 20px;
+  
+}
+.menu ul li:last-child{
+  margin-right: 0;
+
+}
+
+.logo-name, .menu{
+  display: inline-block;
+  margin: 20px;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  /* background-color: aqua; */
+  padding: 20px 10px 20px 10;
+}
+.menu ul li a:hover{
+  background: skyblue;
+  transition: all 0.5s ease;
+}
+
+/*******************************************/
+/* * */
+/* Header Section Styling*/ 
+/* * */
+/* **************************************** */
+
+
+/* header{
+  position: relative;
+  text-align: center;
+}
+header img{
+  width: 100%;
+}
+
+.container{
+  position: absolute;
+  top: 120px;
+  left: 160px;
+  
+} */
+
+header{
+  background-image: url(../img/ladder.jpg) ;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+header div p{
+  margin-top: 0;
+}
+.container{
+  text-align: center;
+  padding-top: 75px;
+  padding-right: 500px;
+}
+
+.view-btn{
+  background-color: rgba(255, 255, 128, .5);
+  margin-right: 15px;
+  color: white;
+}
+
+.contact-btn{
+  background-color: #0c5a1d;
+  color: aquamarine;
+}
+header a{
+  display: inline-block;
+  padding: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.view-btn:hover{
+  background-color: #0c5a1d;  
+  color: aquamarine;
+ 
+}
+
+.contact-btn:hover{
+  background-color: rgba(255, 255, 128, .5);
+  color: white;
+}
