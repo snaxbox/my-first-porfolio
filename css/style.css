@@ -1,5 +1,7 @@
 body{
   margin: 0;
+  font-style: arial;
+
 }
 
 /*******************************************/
@@ -72,7 +74,8 @@ header{
   height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
-
+  background-attachment: fixed;
+  background-position-y: -120px;
 }
 
 header div p{
@@ -173,3 +176,34 @@ header a{
   background-color: lightgrey;
   color: white;
 }
+
+/* **************************** */
+/* <!-- Skills Section --> -----*/
+/* **************************** */
+.myskills{
+  background-color: #e2e2e2;
+  margin-top: 8px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.skills-left, .skills-right, .skills-center{
+  width: 33.33333%;
+  float: left;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.skillscotainer:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.myskills i{
+  font-size: 60px;
+  
+}
+
+
+
+
